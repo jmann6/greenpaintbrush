@@ -1,3 +1,5 @@
+
+/* Allows user to paint only when mouse is pressed.  */
 var draw = function() {
     noStroke();
     fill(7, 51, 7);
