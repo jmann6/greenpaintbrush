@@ -1,0 +1,6 @@
+noStroke();
+var draw = function() {
+    fill(10, mouseX, 0, mouseY);
+    ellipse(mouseX, mouseY, 50, 25);
+    stroke(mouseX, mouseY,255, 0);
+};
