@@ -2,7 +2,7 @@
 /* Allows user to paint only when mouse is pressed.  */
 var draw = function() {
     noStroke();
-    fill(7, 51, 7);
+    fill(15, 70, 15);  /* dark green*/
     if (mouseIsPressed){
         ellipse(mouseX, mouseY, 20, 20);
     }
