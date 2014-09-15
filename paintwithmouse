@@ -4,6 +4,6 @@ var draw = function() {
     noStroke();
     fill(15, 70, 15);  /* dark green*/
     if (mouseIsPressed){
-        ellipse(mouseX, mouseY, 20, 20);
+        ellipse(mouseX, mouseY, 50, 50);  /*increased size of paint stroke*/
     }
 };
